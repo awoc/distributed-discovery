@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" /> 
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" /> 
+	<extension name="Message" prefix="message" uri="https://cpee.org/~demo/corrins/message.xesext" /> 
+	<trace>
+		<string key="concept:name" value="3324" />
+		<string key="message:participant" value="OneToManySend1" />
+		<event>
+			<string key="concept:instance" value="3324" />
+			<string key="concept:name" value="A" />
+			<date key="time:timestamp" value="2022-05-18T14:36:59.685+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3324" />
+			<string key="concept:name" value="Send Messages" />
+			<date key="time:timestamp" value="2022-05-18T14:36:59.751+02:00" />
+			<list key="message:sent">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;order&gt; 	&lt;order_id&gt;1&lt;/order_id&gt; 	&lt;article&gt;book&lt;/article&gt; 	&lt;quantity&gt;5&lt;/quantity&gt; 	&lt;address&gt;097 Sanchez Islands Apt. 393 Port Tammy, ND 59217&lt;/address&gt; 	&lt;date&gt;195884769&lt;/date&gt; &lt;/order&gt;"/>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;initiate&gt; 	&lt;id&gt;48153&lt;/id&gt; 	&lt;sender&gt;Martinez, Cook and Nielsen&lt;/sender&gt; 	&lt;date&gt;436372654&lt;/date&gt; &lt;/initiate&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3324" />
+			<string key="concept:name" value="B" />
+			<date key="time:timestamp" value="2022-05-18T14:37:29.757+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3327" />
+		<string key="message:participant" value="OneToManySend3" />
+		<event>
+			<string key="concept:instance" value="3327" />
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="2022-05-18T14:37:17.057+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3327" />
+			<string key="concept:name" value="Receive Initiate" />
+			<date key="time:timestamp" value="2022-05-18T14:37:17.135+02:00" />
+			<list key="message:received">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;initiate&gt; 	&lt;id&gt;48153&lt;/id&gt; 	&lt;sender&gt;Martinez, Cook and Nielsen&lt;/sender&gt; 	&lt;date&gt;436372654&lt;/date&gt; &lt;/initiate&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3327" />
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="2022-05-18T14:37:32.147+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3325" />
+		<string key="message:participant" value="OneToManySend2" />
+		<event>
+			<string key="concept:instance" value="3325" />
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="2022-05-18T14:37:21.440+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3325" />
+			<string key="concept:name" value="Receive Order" />
+			<date key="time:timestamp" value="2022-05-18T14:37:21.506+02:00" />
+			<list key="message:received">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;order&gt; 	&lt;order_id&gt;1&lt;/order_id&gt; 	&lt;article&gt;book&lt;/article&gt; 	&lt;quantity&gt;5&lt;/quantity&gt; 	&lt;address&gt;097 Sanchez Islands Apt. 393 Port Tammy, ND 59217&lt;/address&gt; 	&lt;date&gt;195884769&lt;/date&gt; &lt;/order&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3325" />
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="2022-05-18T14:37:46.520+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3328" />
+		<string key="message:participant" value="OneToManySend1" />
+		<event>
+			<string key="concept:instance" value="3328" />
+			<string key="concept:name" value="A" />
+			<date key="time:timestamp" value="2022-05-18T14:40:01.048+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3328" />
+			<string key="concept:name" value="Send Messages" />
+			<date key="time:timestamp" value="2022-05-18T14:40:01.116+02:00" />
+			<list key="message:sent">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;order&gt; 	&lt;order_id&gt;2&lt;/order_id&gt; 	&lt;article&gt;ink&lt;/article&gt; 	&lt;quantity&gt;8&lt;/quantity&gt; 	&lt;address&gt;94711 Nancy Camp Lake Sandraside, MO 92943&lt;/address&gt; 	&lt;date&gt;1126513960&lt;/date&gt; &lt;/order&gt;"/>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;initiate&gt; 	&lt;id&gt;69056&lt;/id&gt; 	&lt;sender&gt;Keller-Davies&lt;/sender&gt; 	&lt;date&gt;767440973&lt;/date&gt; &lt;/initiate&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3328" />
+			<string key="concept:name" value="B" />
+			<date key="time:timestamp" value="2022-05-18T14:40:31.138+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3329" />
+		<string key="message:participant" value="OneToManySend2" />
+		<event>
+			<string key="concept:instance" value="3329" />
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="2022-05-18T14:40:19.018+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3329" />
+			<string key="concept:name" value="Receive Order" />
+			<date key="time:timestamp" value="2022-05-18T14:40:19.085+02:00" />
+			<list key="message:received">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;order&gt; 	&lt;order_id&gt;2&lt;/order_id&gt; 	&lt;article&gt;ink&lt;/article&gt; 	&lt;quantity&gt;8&lt;/quantity&gt; 	&lt;address&gt;94711 Nancy Camp Lake Sandraside, MO 92943&lt;/address&gt; 	&lt;date&gt;1126513960&lt;/date&gt; &lt;/order&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3329" />
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="2022-05-18T14:40:44.106+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3330" />
+		<string key="message:participant" value="OneToManySend3" />
+		<event>
+			<string key="concept:instance" value="3330" />
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="2022-05-18T14:40:27.137+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3330" />
+			<string key="concept:name" value="Receive Initiate" />
+			<date key="time:timestamp" value="2022-05-18T14:40:27.203+02:00" />
+			<list key="message:received">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;initiate&gt; 	&lt;id&gt;69056&lt;/id&gt; 	&lt;sender&gt;Keller-Davies&lt;/sender&gt; 	&lt;date&gt;767440973&lt;/date&gt; &lt;/initiate&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3330" />
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="2022-05-18T14:40:42.233+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3430" />
+		<string key="message:participant" value="OneToManySend1" />
+		<event>
+			<string key="concept:instance" value="3430" />
+			<string key="concept:name" value="A" />
+			<date key="time:timestamp" value="2022-05-18T20:14:49.791+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3430" />
+			<string key="concept:name" value="Send Messages" />
+			<date key="time:timestamp" value="2022-05-18T20:14:49.852+02:00" />
+			<list key="message:sent">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;order&gt; 	&lt;order_id&gt;3&lt;/order_id&gt; 	&lt;article&gt;pencil&lt;/article&gt; 	&lt;quantity&gt;5&lt;/quantity&gt; 	&lt;address&gt;04135 Marvin Via North Kristabury, OK 83627&lt;/address&gt; 	&lt;date&gt;1147181398&lt;/date&gt; &lt;/order&gt;"/>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;initiate&gt; 	&lt;id&gt;89473&lt;/id&gt; 	&lt;sender&gt;Wilson, Davis and Bass&lt;/sender&gt; 	&lt;date&gt;249207194&lt;/date&gt; &lt;/initiate&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3430" />
+			<string key="concept:name" value="B" />
+			<date key="time:timestamp" value="2022-05-18T20:15:19.876+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3432" />
+		<string key="message:participant" value="OneToManySend3" />
+		<event>
+			<string key="concept:instance" value="3432" />
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="2022-05-18T20:15:04.868+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3432" />
+			<string key="concept:name" value="Receive Initiate" />
+			<date key="time:timestamp" value="2022-05-18T20:15:04.924+02:00" />
+			<list key="message:received">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;initiate&gt; 	&lt;id&gt;89473&lt;/id&gt; 	&lt;sender&gt;Wilson, Davis and Bass&lt;/sender&gt; 	&lt;date&gt;249207194&lt;/date&gt; &lt;/initiate&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3432" />
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="2022-05-18T20:15:19.953+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3431" />
+		<string key="message:participant" value="OneToManySend2" />
+		<event>
+			<string key="concept:instance" value="3431" />
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="2022-05-18T20:15:11.014+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3431" />
+			<string key="concept:name" value="Receive Order" />
+			<date key="time:timestamp" value="2022-05-18T20:15:11.065+02:00" />
+			<list key="message:received">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;order&gt; 	&lt;order_id&gt;3&lt;/order_id&gt; 	&lt;article&gt;pencil&lt;/article&gt; 	&lt;quantity&gt;5&lt;/quantity&gt; 	&lt;address&gt;04135 Marvin Via North Kristabury, OK 83627&lt;/address&gt; 	&lt;date&gt;1147181398&lt;/date&gt; &lt;/order&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3431" />
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="2022-05-18T20:15:36.082+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="4055" />
+		<string key="message:participant" value="OneToManySend1" />
+		<event>
+			<string key="concept:instance" value="4055" />
+			<string key="concept:name" value="A" />
+			<date key="time:timestamp" value="2022-05-23T21:38:38.182+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="4055" />
+			<string key="concept:name" value="Send Messages" />
+			<date key="time:timestamp" value="2022-05-23T21:38:38.233+02:00" />
+			<list key="message:sent">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;order&gt; 	&lt;order_id&gt;4&lt;/order_id&gt; 	&lt;article&gt;pencil&lt;/article&gt; 	&lt;quantity&gt;6&lt;/quantity&gt; 	&lt;address&gt;00869 Mary Cliff Apt. 145 Whitehaven, AZ 78683&lt;/address&gt; 	&lt;date&gt;216726712&lt;/date&gt; &lt;/order&gt;"/>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;initiate&gt; 	&lt;id&gt;98164&lt;/id&gt; 	&lt;sender&gt;Levy Inc&lt;/sender&gt; 	&lt;date&gt;1452132272&lt;/date&gt; &lt;/initiate&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="4055" />
+			<string key="concept:name" value="B" />
+			<date key="time:timestamp" value="2022-05-23T21:39:08.209+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="4057" />
+		<string key="message:participant" value="OneToManySend3" />
+		<event>
+			<string key="concept:instance" value="4057" />
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="2022-05-23T21:38:51.300+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="4057" />
+			<string key="concept:name" value="Receive Initiate" />
+			<date key="time:timestamp" value="2022-05-23T21:38:51.393+02:00" />
+			<list key="message:received">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;initiate&gt; 	&lt;id&gt;98164&lt;/id&gt; 	&lt;sender&gt;Levy Inc&lt;/sender&gt; 	&lt;date&gt;1452132272&lt;/date&gt; &lt;/initiate&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="4057" />
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="2022-05-23T21:39:06.327+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="4056" />
+		<string key="message:participant" value="OneToManySend2" />
+		<event>
+			<string key="concept:instance" value="4056" />
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="2022-05-23T21:38:54.715+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="4056" />
+			<string key="concept:name" value="Receive Order" />
+			<date key="time:timestamp" value="2022-05-23T21:38:54.766+02:00" />
+			<list key="message:received">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;order&gt; 	&lt;order_id&gt;4&lt;/order_id&gt; 	&lt;article&gt;pencil&lt;/article&gt; 	&lt;quantity&gt;6&lt;/quantity&gt; 	&lt;address&gt;00869 Mary Cliff Apt. 145 Whitehaven, AZ 78683&lt;/address&gt; 	&lt;date&gt;216726712&lt;/date&gt; &lt;/order&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="4056" />
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="2022-05-23T21:39:19.736+02:00" />
+		</event>
+	</trace>
+</log>

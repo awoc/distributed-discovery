@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" /> 
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" /> 
+	<extension name="Message" prefix="message" uri="https://cpee.org/~demo/corrins/message.xesext" /> 
+	<trace>
+		<string key="concept:name" value="3148" />
+		<string key="message:participant" value="Stream1" />
+		<event>
+			<string key="concept:instance" value="3148" />
+			<string key="concept:name" value="A" />
+			<date key="time:timestamp" value="2022-05-17T21:26:33.957+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3148" />
+			<string key="concept:name" value="Initiate" />
+			<date key="time:timestamp" value="2022-05-17T21:26:34.020+02:00" />
+			<list key="message:sent">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;initiate&gt; 	&lt;id&gt;23199&lt;/id&gt; 	&lt;sender&gt;Hamilton-Carr&lt;/sender&gt; 	&lt;date&gt;439112612&lt;/date&gt; &lt;/initiate&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3148" />
+			<string key="concept:name" value="Receive Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:26:41.621+02:00" />
+			<list key="message:received">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;0&lt;/id&gt; 	&lt;content&gt;Local tend employee source nature add.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3148" />
+			<string key="concept:name" value="B" />
+			<date key="time:timestamp" value="2022-05-17T21:26:46.663+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3148" />
+			<string key="concept:name" value="Receive Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:26:46.855+02:00" />
+			<list key="message:received">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;1&lt;/id&gt; 	&lt;content&gt;Natural explain before something first drug.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3148" />
+			<string key="concept:name" value="B" />
+			<date key="time:timestamp" value="2022-05-17T21:26:51.885+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3148" />
+			<string key="concept:name" value="Receive Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:26:52.085+02:00" />
+			<list key="message:received">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;2&lt;/id&gt; 	&lt;content&gt;Food break onto.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3148" />
+			<string key="concept:name" value="B" />
+			<date key="time:timestamp" value="2022-05-17T21:26:56.976+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3148" />
+			<string key="concept:name" value="Receive Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:26:57.228+02:00" />
+			<list key="message:received">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;3&lt;/id&gt; 	&lt;content&gt;Painting create wife.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3148" />
+			<string key="concept:name" value="B" />
+			<date key="time:timestamp" value="2022-05-17T21:27:02.097+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3148" />
+			<string key="concept:name" value="Receive Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:27:02.233+02:00" />
+			<list key="message:received">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;4&lt;/id&gt; 	&lt;content&gt;Suddenly garden economy others.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3148" />
+			<string key="concept:name" value="B" />
+			<date key="time:timestamp" value="2022-05-17T21:27:07.243+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3148" />
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="2022-05-17T21:27:52.308+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3149" />
+		<string key="message:participant" value="Stream2" />
+		<event>
+			<string key="concept:instance" value="3149" />
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="2022-05-17T21:26:41.481+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3149" />
+			<string key="concept:name" value="Receive Stream Request" />
+			<date key="time:timestamp" value="2022-05-17T21:26:41.541+02:00" />
+			<list key="message:received">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;initiate&gt; 	&lt;id&gt;23199&lt;/id&gt; 	&lt;sender&gt;Hamilton-Carr&lt;/sender&gt; 	&lt;date&gt;439112612&lt;/date&gt; &lt;/initiate&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3149" />
+			<string key="concept:name" value="Send Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:26:41.679+02:00" />
+			<list key="message:sent">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;0&lt;/id&gt; 	&lt;content&gt;Local tend employee source nature add.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3149" />
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="2022-05-17T21:26:46.712+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3149" />
+			<string key="concept:name" value="Send Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:26:46.818+02:00" />
+			<list key="message:sent">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;1&lt;/id&gt; 	&lt;content&gt;Natural explain before something first drug.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3149" />
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="2022-05-17T21:26:51.826+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3149" />
+			<string key="concept:name" value="Send Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:26:51.971+02:00" />
+			<list key="message:sent">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;2&lt;/id&gt; 	&lt;content&gt;Food break onto.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3149" />
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="2022-05-17T21:26:57.001+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3149" />
+			<string key="concept:name" value="Send Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:26:57.128+02:00" />
+			<list key="message:sent">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;3&lt;/id&gt; 	&lt;content&gt;Painting create wife.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3149" />
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="2022-05-17T21:27:02.072+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3149" />
+			<string key="concept:name" value="Send Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:27:02.289+02:00" />
+			<list key="message:sent">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;4&lt;/id&gt; 	&lt;content&gt;Suddenly garden economy others.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3149" />
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="2022-05-17T21:27:07.280+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3149" />
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="2022-05-17T21:27:17.314+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3150" />
+		<string key="message:participant" value="Stream1" />
+		<event>
+			<string key="concept:instance" value="3150" />
+			<string key="concept:name" value="A" />
+			<date key="time:timestamp" value="2022-05-17T21:30:00.500+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3150" />
+			<string key="concept:name" value="Initiate" />
+			<date key="time:timestamp" value="2022-05-17T21:30:00.554+02:00" />
+			<list key="message:sent">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;initiate&gt; 	&lt;id&gt;48153&lt;/id&gt; 	&lt;sender&gt;Martinez, Cook and Nielsen&lt;/sender&gt; 	&lt;date&gt;436372654&lt;/date&gt; &lt;/initiate&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3150" />
+			<string key="concept:name" value="Receive Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:30:08.668+02:00" />
+			<list key="message:received">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;3&lt;/id&gt; 	&lt;content&gt;Painting create wife.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3150" />
+			<string key="concept:name" value="B" />
+			<date key="time:timestamp" value="2022-05-17T21:30:13.736+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3150" />
+			<string key="concept:name" value="Receive Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:30:13.890+02:00" />
+			<list key="message:received">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;4&lt;/id&gt; 	&lt;content&gt;Suddenly garden economy others.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3150" />
+			<string key="concept:name" value="B" />
+			<date key="time:timestamp" value="2022-05-17T21:30:18.848+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3150" />
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="2022-05-17T21:31:03.870+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3151" />
+		<string key="message:participant" value="Stream2" />
+		<event>
+			<string key="concept:instance" value="3151" />
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="2022-05-17T21:30:08.495+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3151" />
+			<string key="concept:name" value="Receive Stream Request" />
+			<date key="time:timestamp" value="2022-05-17T21:30:08.569+02:00" />
+			<list key="message:received">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;initiate&gt; 	&lt;id&gt;48153&lt;/id&gt; 	&lt;sender&gt;Martinez, Cook and Nielsen&lt;/sender&gt; 	&lt;date&gt;436372654&lt;/date&gt; &lt;/initiate&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3151" />
+			<string key="concept:name" value="Send Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:30:08.715+02:00" />
+			<list key="message:sent">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;3&lt;/id&gt; 	&lt;content&gt;Painting create wife.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3151" />
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="2022-05-17T21:30:13.675+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3151" />
+			<string key="concept:name" value="Send Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:30:13.819+02:00" />
+			<list key="message:sent">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;4&lt;/id&gt; 	&lt;content&gt;Suddenly garden economy others.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3151" />
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="2022-05-17T21:30:18.871+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3151" />
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="2022-05-17T21:30:28.880+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3152" />
+		<string key="message:participant" value="Stream1" />
+		<event>
+			<string key="concept:instance" value="3152" />
+			<string key="concept:name" value="A" />
+			<date key="time:timestamp" value="2022-05-17T21:42:16.228+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3152" />
+			<string key="concept:name" value="Initiate" />
+			<date key="time:timestamp" value="2022-05-17T21:42:16.301+02:00" />
+			<list key="message:sent">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;initiate&gt; 	&lt;id&gt;69056&lt;/id&gt; 	&lt;sender&gt;Keller-Davies&lt;/sender&gt; 	&lt;date&gt;767440973&lt;/date&gt; &lt;/initiate&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3152" />
+			<string key="concept:name" value="Receive Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:42:30.410+02:00" />
+			<list key="message:received">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;1&lt;/id&gt; 	&lt;content&gt;Natural explain before something first drug.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3152" />
+			<string key="concept:name" value="B" />
+			<date key="time:timestamp" value="2022-05-17T21:42:35.404+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3152" />
+			<string key="concept:name" value="Receive Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:42:35.517+02:00" />
+			<list key="message:received">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;2&lt;/id&gt; 	&lt;content&gt;Food break onto.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3152" />
+			<string key="concept:name" value="B" />
+			<date key="time:timestamp" value="2022-05-17T21:42:40.501+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3152" />
+			<string key="concept:name" value="Receive Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:42:40.746+02:00" />
+			<list key="message:received">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;3&lt;/id&gt; 	&lt;content&gt;Painting create wife.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3152" />
+			<string key="concept:name" value="B" />
+			<date key="time:timestamp" value="2022-05-17T21:42:45.662+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3152" />
+			<string key="concept:name" value="Receive Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:42:45.802+02:00" />
+			<list key="message:received">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;4&lt;/id&gt; 	&lt;content&gt;Suddenly garden economy others.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3152" />
+			<string key="concept:name" value="B" />
+			<date key="time:timestamp" value="2022-05-17T21:42:50.827+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3152" />
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="2022-05-17T21:43:35.851+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3153" />
+		<string key="message:participant" value="Stream2" />
+		<event>
+			<string key="concept:instance" value="3153" />
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="2022-05-17T21:42:30.198+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3153" />
+			<string key="concept:name" value="Receive Stream Request" />
+			<date key="time:timestamp" value="2022-05-17T21:42:30.254+02:00" />
+			<list key="message:received">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;initiate&gt; 	&lt;id&gt;69056&lt;/id&gt; 	&lt;sender&gt;Keller-Davies&lt;/sender&gt; 	&lt;date&gt;767440973&lt;/date&gt; &lt;/initiate&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3153" />
+			<string key="concept:name" value="Send Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:42:30.357+02:00" />
+			<list key="message:sent">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;1&lt;/id&gt; 	&lt;content&gt;Natural explain before something first drug.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3153" />
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="2022-05-17T21:42:35.375+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3153" />
+			<string key="concept:name" value="Send Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:42:35.596+02:00" />
+			<list key="message:sent">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;2&lt;/id&gt; 	&lt;content&gt;Food break onto.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3153" />
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="2022-05-17T21:42:40.532+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3153" />
+			<string key="concept:name" value="Send Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:42:40.663+02:00" />
+			<list key="message:sent">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;3&lt;/id&gt; 	&lt;content&gt;Painting create wife.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3153" />
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="2022-05-17T21:42:45.625+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3153" />
+			<string key="concept:name" value="Send Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:42:45.826+02:00" />
+			<list key="message:sent">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;4&lt;/id&gt; 	&lt;content&gt;Suddenly garden economy others.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3153" />
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="2022-05-17T21:42:50.853+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3153" />
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="2022-05-17T21:43:00.856+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3154" />
+		<string key="message:participant" value="Stream1" />
+		<event>
+			<string key="concept:instance" value="3154" />
+			<string key="concept:name" value="A" />
+			<date key="time:timestamp" value="2022-05-17T21:45:21.484+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3154" />
+			<string key="concept:name" value="Initiate" />
+			<date key="time:timestamp" value="2022-05-17T21:45:21.542+02:00" />
+			<list key="message:sent">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;initiate&gt; 	&lt;id&gt;89473&lt;/id&gt; 	&lt;sender&gt;Wilson, Davis and Bass&lt;/sender&gt; 	&lt;date&gt;249207194&lt;/date&gt; &lt;/initiate&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3154" />
+			<string key="concept:name" value="Receive Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:45:30.783+02:00" />
+			<list key="message:received">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;4&lt;/id&gt; 	&lt;content&gt;Suddenly garden economy others.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3154" />
+			<string key="concept:name" value="B" />
+			<date key="time:timestamp" value="2022-05-17T21:45:35.808+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3154" />
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="2022-05-17T21:46:20.833+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3155" />
+		<string key="message:participant" value="Stream2" />
+		<event>
+			<string key="concept:instance" value="3155" />
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="2022-05-17T21:45:30.637+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3155" />
+			<string key="concept:name" value="Receive Stream Request" />
+			<date key="time:timestamp" value="2022-05-17T21:45:30.700+02:00" />
+			<list key="message:received">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;initiate&gt; 	&lt;id&gt;89473&lt;/id&gt; 	&lt;sender&gt;Wilson, Davis and Bass&lt;/sender&gt; 	&lt;date&gt;249207194&lt;/date&gt; &lt;/initiate&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3155" />
+			<string key="concept:name" value="Send Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:45:30.837+02:00" />
+			<list key="message:sent">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;4&lt;/id&gt; 	&lt;content&gt;Suddenly garden economy others.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3155" />
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="2022-05-17T21:45:35.867+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3155" />
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="2022-05-17T21:45:45.869+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3156" />
+		<string key="message:participant" value="Stream1" />
+		<event>
+			<string key="concept:instance" value="3156" />
+			<string key="concept:name" value="A" />
+			<date key="time:timestamp" value="2022-05-17T21:48:13.512+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3156" />
+			<string key="concept:name" value="Initiate" />
+			<date key="time:timestamp" value="2022-05-17T21:48:13.567+02:00" />
+			<list key="message:sent">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;initiate&gt; 	&lt;id&gt;98164&lt;/id&gt; 	&lt;sender&gt;Levy Inc&lt;/sender&gt; 	&lt;date&gt;1452132272&lt;/date&gt; &lt;/initiate&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3156" />
+			<string key="concept:name" value="Receive Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:48:33.978+02:00" />
+			<list key="message:received">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;0&lt;/id&gt; 	&lt;content&gt;Local tend employee source nature add.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3156" />
+			<string key="concept:name" value="B" />
+			<date key="time:timestamp" value="2022-05-17T21:48:38.921+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3156" />
+			<string key="concept:name" value="Receive Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:48:39.218+02:00" />
+			<list key="message:received">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;1&lt;/id&gt; 	&lt;content&gt;Natural explain before something first drug.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3156" />
+			<string key="concept:name" value="B" />
+			<date key="time:timestamp" value="2022-05-17T21:48:44.073+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3156" />
+			<string key="concept:name" value="Receive Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:48:44.174+02:00" />
+			<list key="message:received">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;2&lt;/id&gt; 	&lt;content&gt;Food break onto.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3156" />
+			<string key="concept:name" value="B" />
+			<date key="time:timestamp" value="2022-05-17T21:48:49.204+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3156" />
+			<string key="concept:name" value="Receive Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:48:49.340+02:00" />
+			<list key="message:received">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;3&lt;/id&gt; 	&lt;content&gt;Painting create wife.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3156" />
+			<string key="concept:name" value="B" />
+			<date key="time:timestamp" value="2022-05-17T21:48:54.383+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3156" />
+			<string key="concept:name" value="Receive Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:48:54.631+02:00" />
+			<list key="message:received">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;4&lt;/id&gt; 	&lt;content&gt;Suddenly garden economy others.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3156" />
+			<string key="concept:name" value="B" />
+			<date key="time:timestamp" value="2022-05-17T21:48:59.506+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3156" />
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="2022-05-17T21:49:44.524+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3157" />
+		<string key="message:participant" value="Stream2" />
+		<event>
+			<string key="concept:instance" value="3157" />
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="2022-05-17T21:48:33.759+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3157" />
+			<string key="concept:name" value="Receive Stream Request" />
+			<date key="time:timestamp" value="2022-05-17T21:48:33.815+02:00" />
+			<list key="message:received">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;initiate&gt; 	&lt;id&gt;98164&lt;/id&gt; 	&lt;sender&gt;Levy Inc&lt;/sender&gt; 	&lt;date&gt;1452132272&lt;/date&gt; &lt;/initiate&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3157" />
+			<string key="concept:name" value="Send Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:48:33.914+02:00" />
+			<list key="message:sent">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;0&lt;/id&gt; 	&lt;content&gt;Local tend employee source nature add.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3157" />
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="2022-05-17T21:48:38.958+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3157" />
+			<string key="concept:name" value="Send Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:48:39.108+02:00" />
+			<list key="message:sent">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;1&lt;/id&gt; 	&lt;content&gt;Natural explain before something first drug.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3157" />
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="2022-05-17T21:48:44.038+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3157" />
+			<string key="concept:name" value="Send Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:48:44.259+02:00" />
+			<list key="message:sent">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;2&lt;/id&gt; 	&lt;content&gt;Food break onto.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3157" />
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="2022-05-17T21:48:49.237+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3157" />
+			<string key="concept:name" value="Send Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:48:49.391+02:00" />
+			<list key="message:sent">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;3&lt;/id&gt; 	&lt;content&gt;Painting create wife.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3157" />
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="2022-05-17T21:48:54.399+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3157" />
+			<string key="concept:name" value="Send Stream" />
+			<date key="time:timestamp" value="2022-05-17T21:48:54.499+02:00" />
+			<list key="message:sent">
+				<values>
+					<string key="message:content" value="&lt;?xml version=&quot;1.0&quot; ?&gt; &lt;stream&gt; 	&lt;id&gt;4&lt;/id&gt; 	&lt;content&gt;Suddenly garden economy others.&lt;/content&gt; &lt;/stream&gt;"/>
+				</values>
+			</list>
+		</event>
+		<event>
+			<string key="concept:instance" value="3157" />
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="2022-05-17T21:48:59.453+02:00" />
+		</event>
+		<event>
+			<string key="concept:instance" value="3157" />
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="2022-05-17T21:49:09.481+02:00" />
+		</event>
+	</trace>
+</log>

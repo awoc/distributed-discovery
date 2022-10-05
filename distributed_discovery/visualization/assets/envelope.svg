@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="24" height="18" viewBox="0 0 24 18" version="1.1"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve"
+    xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:1.5;">
+    <rect id="Envelope" x="0" y="0" width="24" height="18" style="fill:none;"/>
+    <clipPath id="_clip1">
+        <rect x="0" y="0" width="24" height="18"/>
+    </clipPath>
+    <g clip-path="url(#_clip1)">
+        <path d="M24,2.351c0,-1.298 -1.053,-2.351 -2.351,-2.351l-19.298,-0c-1.298,-0 -2.351,1.053 -2.351,2.351l0,13.298c0,1.298 1.053,2.351 2.351,2.351l19.298,-0c1.298,-0 2.351,-1.053 2.351,-2.351l0,-13.298Zm-1.042,-0l0,13.298c0,0.723 -0.586,1.309 -1.309,1.309c0,0 -19.298,0 -19.298,0c-0.723,0 -1.309,-0.586 -1.309,-1.309l-0,-13.298c-0,-0.723 0.586,-1.309 1.309,-1.309l19.298,-0c0.723,-0 1.309,0.586 1.309,1.309Z"/>
+        <path d="M24,2.351c0,-1.298 -1.053,-2.351 -2.351,-2.351l-19.298,-0c-1.298,-0 -2.351,1.053 -2.351,2.351l0,13.298c0,1.298 1.053,2.351 2.351,2.351l19.298,-0c1.298,-0 2.351,-1.053 2.351,-2.351l0,-13.298Z" style="fill:none;"/>
+        <clipPath id="_clip2">
+            <path d="M24,2.351c0,-1.298 -1.053,-2.351 -2.351,-2.351l-19.298,-0c-1.298,-0 -2.351,1.053 -2.351,2.351l0,13.298c0,1.298 1.053,2.351 2.351,2.351l19.298,-0c1.298,-0 2.351,-1.053 2.351,-2.351l0,-13.298Z"/>
+        </clipPath>
+        <g clip-path="url(#_clip2)">
+            <path d="M11.984,9l-19.372,-11.114l38.744,-0l-19.372,11.114Z" style="fill:none;stroke:#000;stroke-width:1.04px;"/>
+        </g>
+    </g>
+</svg>
