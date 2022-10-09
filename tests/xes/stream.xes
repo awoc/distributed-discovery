@@ -2,7 +2,7 @@
 <log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
 	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" /> 
 	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" /> 
-	<extension name="Message" prefix="message" uri="https://github.com/awoc/distributed-discovery/blob/main/message.xesext" />
+	<extension name="Message" prefix="message" uri="https://raw.githubusercontent.com/awoc/distributed-discovery/main/message.xesext" />
 	<trace>
 		<string key="concept:name" value="3148" />
 		<string key="message:participant" value="Stream1" />

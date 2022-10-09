@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<xesextension name="Message" prefix="message" uri="https://github.com/awoc/distributed-discovery/blob/main/message.xesext">
+<xesextension name="Message" prefix="message" uri="https://raw.githubusercontent.com/awoc/distributed-discovery/main/message.xesext">
     <trace>
         <string key="participant">
             <alias mapping="EN" name="Trace of Participant"/>
