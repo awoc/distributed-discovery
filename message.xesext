@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xesextension name="Message" prefix="message" uri="https://github.com/awoc/distributed-discovery/blob/main/message.xesext">
+    <trace>
+        <string key="participant">
+            <alias mapping="EN" name="Trace of Participant"/>
+        </string>
+    </trace>
+
+    <event>
+        <list key="sent">
+            <alias mapping="EN" name="Sent messages"/>
+        </list>
+        <list key="received">
+            <alias mapping="EN" name="Received messages"/>
+        </list>
+    </event>
+
+    <meta>
+        <string key="content">
+            <alias mapping="EN" name="Message content"/>
+        </string>
+    </meta>
+</xesextension>

@@ -4,7 +4,7 @@
 	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
 	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
 	<extension name="Identity" prefix="identity" uri="http://www.xes-standard.org/identity.xesext" />
-	<extension name="Message" prefix="message" uri="https://cpee.org/~demo/corrins/message.xesext" />
+	<extension name="Message" prefix="message" uri="https://github.com/awoc/distributed-discovery/blob/main/message.xesext" />
 	<trace>
 		<string key="concept:name" value="case_1" />
 		<string key="message:participant" value="Patient" />
