@@ -431,9 +431,9 @@ def subgraph_to_petri_net(
     initial_marking = Marking()
     final_marking = Marking()
     source = get_new_place(counts)
-    source.name = "source"
+    source.name = f"{participant}_source"
     sink = get_new_place(counts)
-    sink.name = "sink"
+    sink.name = f"{participant}_sink"
     net.places.add(source)
     net.places.add(sink)
     initial_marking[source] = 1
